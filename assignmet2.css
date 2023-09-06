@@ -1,0 +1,149 @@
+nav ul {
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+nav a {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ff0000;
+  text-decoration: none;
+  width: 100px;
+  color: white;
+  transition: background-color 1s, width 2s, color 2s;
+}
+nav a:hover {
+  background-color: #0743b1;
+  width: 200px;
+  color: black;
+}
+body {
+  background-color: rgb(226, 252, 252);
+}
+
+.bouncing-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -20px
+    ); /* Adjust this value to control the bounce height */
+  }
+}
+
+.bouncing-text {
+  animation: bounce 1s ease infinite;
+}
+
+.sliding-image {
+  height: 500px;
+  top: 25%; /* Adjust the vertical position as needed */
+  left: -100px; /* Adjust the starting horizontal position as needed */
+  position: absolute; /* Position the image absolutely to move across the entire page */
+  animation: slide 5s linear infinite; /* Adjust the duration as needed */
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%); /* Adjust the distance as needed */
+  }
+}
+
+.spinning-image {
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(
+      360deg
+    ); /* You can adjust the degree of rotation as needed */
+  }
+}
+
+/* Apply the spinning animation to the image on hover */
+.image-container:hover img {
+  animation: spin 1s linear infinite; /* Adjust the duration as needed */
+}
+
+#slide1 img {
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+#slide1:hover img {
+  transform: scale(1.5);
+}
+#slide2 img {
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+#slide2:hover img {
+  animation: spin 1s linear infinite;
+}
+#slide3 img {
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+#slide3:hover img {
+  animation: bounce 0.5s ease infinite;
+}
+
+#slide4 img {
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+#slide5 img {
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+#slide5:hover img {
+  transform: scale(1.5);
+}
+.image-gallery::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-gallery img {
+  float: left;
+  margin: 10px; /* Optional: Add margin for spacing between images */
+}
