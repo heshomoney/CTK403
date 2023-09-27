@@ -1,0 +1,37 @@
+header {
+  background-color: black;
+  color: #eff307;
+  text-align: center;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-animation {
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+  overflow: hidden; /* Hides overflowing text */
+}
+
+.text-animation span {
+  display: inline-block;
+  animation: fadeInOut 2s linear infinite alternate; /* Alternate animation direction */
+  opacity: 0;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
