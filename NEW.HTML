@@ -4,13 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-
+     <!-- Link to Bootstrap CSS (make sure to include this link before your custom CSS) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    
+    <style>
+      /* Change the background color to deep green */
+      .navbar.bg-danger {
+          background-color: #006400; /* Deep Green color */
+      }
+
+      /* Change the text color to white */
+      .navbar.bg-danger .navbar-nav .nav-link {
+          color: white;
+      }
+  </style>
+    <link rel="stylesheet" href="new.css">
+    
+
   </head>
   <body>
     <div class="border border-success p-2 mb-2">
@@ -55,10 +75,10 @@
                 Dropdown link
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Donate</a></li>
+                <li><a class="dropdown-item" href="#">Review</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Support</a>
                 </li>
               </ul>
             </li>
@@ -187,23 +207,24 @@
         </div>
         <span class="border-top">
           <p>
-            I personally feel the first two recommendations are enough. Whether
+            <em>I personally feel the first two recommendations are enough. Whether
             you are a slim person or a plus-size, it is likely you’ll have them
             (stretch mark) the more important thing is to be healthy regardless.
             Stretch marks are really beautiful, I feel it shows growth,
             struggles and tells a story. It is not one of the things we have to
             get rid of but hey, your body is the only place you are going to
-            live so make sure you are comfortable in your skin.
+            live so make sure you are comfortable in your skin.</em>
           </p>
         </span>
         <div class="container-md">
-      
+      <section>
+       
           <div class="container text-center">
             <div class="row">
               <div class="col">
                 <img src="peeling-apples.alt.jpg.JPG" class="img-fluid
                 img-thumbnail"rounded float-start " alt="..." /> 
-                <h3>New Apple Ingredient Discovery Keeps Muscles Strong</h3>
+                <h3> <a href="http://fabulousdax121health.blogspot.com/2014/09/new-apple-ingredient-discovery-keeps.html">New Apple Ingredient Discovery Keeps Muscles Strong </a></h3>
                 <p>
                   Researchers have discovered a natural compound in apple peels
                   called Ursolic Acid that shows promise in preventing muscle
@@ -212,12 +233,13 @@
                   Ursolic Acid as a potential nutritional therapy for this
                   prevalent and debilitating condition.
                 </p>
+                <p>Muscle wasting is a common occurrence during illness and aging...</p>
               </div>
               <div class="col">
                 <img src="Mosquito.jpg"
                 class="img-fluid img-thumbnail"rounded float" alt="..." />
               </picture>
-                <h3>World Mosquito Day August 20</h3>
+              <h3> <a href="http://fabulousdax121health.blogspot.com/2016/08/world-mosquito-day-august-20.html"> World Mosquito Day August 20 </a></h3>
                 <p>
                   World Mosquito Day is a commemoration of British doctor Sir
                   Ronald Ross's discovery in 1897 that female mosquitoes
@@ -227,32 +249,50 @@
                   future. The London School of Hygiene & Tropical Medicine holds
                   Mosquito Day celebrations every year, including events such as
                   parties and exhibitions, a tradition dating back to as early
-                  as the 1930s.
+                  as the...
                 </p>
+                
               </div>
               <div class="col">
                 <img src="Depression.jpg"
                 class="img-fluid img-thumbnail"rounded float-end" alt="..." />
               </picture>
-                <h3>Is it Depression, or is it Perimenopause?</h3>
+                <h3> <a href="http://fabulousdax121health.blogspot.com/search/label/Depression">Is it Depression, or is it Perimenopause? </a></h3>
                 <p>
                   Are you currently experiencing depression and emotional
                   instability between the ages of 39 and 53? Are you feeling
                   unlike yourself, perhaps less energetic or more serious, as
                   noted by your family and friends? Well, it might not be
-                  depression you're facing but rather perimenopause.
+                  depression you're facing but rather perimenopause., </p>
+                  <p>Perimenopause refers to the 2 to 10 years leading up to the cessation of menstruation and presents 40- to 50-year-old women...
+
                 </p>
               </div>
             </div>
           </div>
         </div>
+      </section>
       </div>
-
-      <script
+    
+      
+      
+      <script>
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"
-      ></script>
+      </script>
+            <!-- Add your page content here -->
+
+    <!-- Link to Bootstrap JS and jQuery (for Bootstrap features like dropdowns) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </div>
   </body>
+  <footer>
+    <p class="text-center">Bootstrap demo.  <em>CTK403 Assignment 6: Bootstrap</em> I <a href="mailto:ooesho@ilstu.edu">contact me</a> </p>
+    <div class="container text-center">follow us on social media    <p> <a href="https://facebook.com" class="bi bi-facebook"> </a> <a href="https://twitter.com" class="bi bi-twitter-x"></a> <a href="https://instagram.com" class="bi bi-instagram"></a> <a href="https://linkedin.com" class="bi bi-linkedin"></a> <a href="https://youtube.com" class="bi bi-youtube"></a>
+    </p></div>
+  </footer>
 </html>
+
