@@ -1,0 +1,27 @@
+section a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: gold;
+}
+section hover img {
+  transform: scale(1.5);
+}
+
+h4 {
+  color: gold;
+}
+
+#navbar.bg-danger {
+  background-color: #006400;
+}
+
+footer {
+  background-color: #006400;
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+}
+body {
+  background-color: aliceblue;
+}
