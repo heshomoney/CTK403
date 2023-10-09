@@ -1,3 +1,10 @@
+footer {
+  background-color: #00008b;
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+}
+
 #main a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -26,12 +33,6 @@ h3 {
   background-color: #006400;
   
 
-footer {
-  background-color: #00008b;
-  text-decoration: none;
-  color: azure;
-  padding: 10px;
-}
 
 h4 {
   color: red;
