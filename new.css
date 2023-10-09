@@ -6,7 +6,7 @@ footer {
 }
 
 footer a {
- color: White;
+ color: White!important;
 }
 
 #main a {
