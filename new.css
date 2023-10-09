@@ -23,7 +23,7 @@ footer {
   padding: 10px;
 }
 
-footer a {
+footer .footerlink {
   text-decoration:none
   color: white
 }
