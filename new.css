@@ -1,11 +1,11 @@
-main a {
+#main a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: red;
 }
 
-main hover img {
+#main hover img {
   transform: scale(1.5);
 }
 
