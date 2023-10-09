@@ -23,7 +23,7 @@ footer {
   padding: 10px;
 }
 
-footer .footerlink {
+footer.a.bi {
   text-decoration:none
   color: white
 }
