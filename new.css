@@ -1,3 +1,15 @@
+main a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: red;
+}
+
+main hover img {
+  transform: scale(1.5);
+}
+
+
 body a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -5,9 +17,6 @@ body a {
   color: white;
 }
 
-body hover img {
-  transform: scale(1.5);
-}
 
 h3 {
   color: red;
@@ -16,12 +25,6 @@ h3 {
 #navbar.bg-danger {
   background-color: #006400;
   
-main.a {
-  text-decoration: none;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: red;
-}
 
 footer {
   background-color: #00008b;
