@@ -1,10 +1,10 @@
-section a {
+body a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: red;
 }
-section hover img {
+body hover img {
   transform: scale(1.5);
 }
 
