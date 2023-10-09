@@ -2,13 +2,16 @@ body a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: red;
+  color: white;
 }
+
+body a
+
 body hover img {
   transform: scale(1.5);
 }
 
-h4 {
+h3 {
   color: red;
 }
 
@@ -23,9 +26,8 @@ footer {
   padding: 10px;
 }
 
-footer.a.bi {
-  text-decoration:none
-  color: white
+h4 {
+  color: red;
 }
   
 
