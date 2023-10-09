@@ -2,14 +2,14 @@ section a {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: gold;
+  color: red;
 }
 section hover img {
   transform: scale(1.5);
 }
 
 h4 {
-  color: gold;
+  color: red;
 }
 
 #navbar.bg-danger {
@@ -17,11 +17,18 @@ h4 {
 }
 
 footer {
-  background-color: #006400;
+  background-color: #00008b;
   text-decoration: none;
   color: azure;
   padding: 10px;
 }
+
+footer a {
+  text-decoration:none
+  color: white
+}
+  
+
 body {
   background-color: aliceblue;
 }
